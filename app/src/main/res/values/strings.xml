@@ -19,5 +19,6 @@
     <string name="title_activity_test_pop_window">测试popwindow</string>
     <string name="title_activity_change_backgroud">切换所有activity的背景</string>
     <string name="title_activity_net_video">NetVideoActivity</string>
+    <string name="title_activity_surface_view">SurfaceViewActivity</string>
 
 </resources>

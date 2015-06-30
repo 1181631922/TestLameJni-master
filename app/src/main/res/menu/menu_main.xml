@@ -47,6 +47,11 @@
                 android:showAsAction="always|withText"
                 android:icon="@drawable/n"
                 android:title="测试网络视频播放" />
+            <item
+                android:id="@+id/main_action_test9"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/g"
+                android:title="测试ViedoView" />
         </menu>
     </item>
     <item
@@ -65,6 +70,11 @@
                 android:showAsAction="always|withText"
                 android:icon="@drawable/a"
                 android:title="系统设置" />
+            <item
+                android:id="@+id/main_action_test10"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/f"
+                android:title="测试SurfaceView" />
         </menu>
     </item>
 

@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import cn.edu.sjzc.fanyafeng.testlamejni.R;
 import cn.edu.sjzc.fanyafeng.testlamejni.testnetvideo.NetVideoActivity;
+import cn.edu.sjzc.fanyafeng.testlamejni.testnetvideo.NetVideoViewActivity;
+import cn.edu.sjzc.fanyafeng.testlamejni.testnetvideo.SurfaceViewActivity;
 
 
 public class MainActivity extends BaseActivity {
@@ -102,6 +104,14 @@ public class MainActivity extends BaseActivity {
             case R.id.main_action_test8:
                 Intent intent11 = new Intent(MainActivity.this, NetVideoActivity.class);
                 startActivity(intent11);
+                break;
+            case R.id.main_action_test9:
+                Intent intent12 = new Intent(MainActivity.this, NetVideoViewActivity.class);
+                startActivity(intent12);
+                break;
+            case R.id.main_action_test10:
+                Intent intent13 = new Intent(MainActivity.this, SurfaceViewActivity.class);
+                startActivity(intent13);
                 break;
         }
 

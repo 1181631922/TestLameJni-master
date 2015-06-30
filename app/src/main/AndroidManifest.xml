@@ -55,9 +55,16 @@
             android:name=".activity.ChangeBackgroudActivity"
             android:label="@string/title_activity_change_backgroud" />
         <activity
-            android:name="cn.edu.sjzc.fanyafeng.testlamejni.testnetvideo.NetVideoActivity"
+            android:name=".testnetvideo.NetVideoActivity"
             android:label="@string/title_activity_net_video" />
+        <activity
+            android:name=".testnetvideo.NetVideoViewActivity"
+            android:label="@string/title_activity_net_video" />
+        <activity android:name=".testnetvideo.SurfaceViewActivity"
+            android:label="@string/title_activity_surface_view"
+            />
     </application>
 
 
 </manifest>
+
