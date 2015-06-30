@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.edu.sjzc.fanyafeng.testlamejni.activity.BaseActivity">
+
+
+    <item
+        android:icon="@drawable/title_more"
+        android:showAsAction="ifRoom|withText"
+        android:orderInCategory="50">
+        <menu>
+            <item
+                android:id="@+id/base_action_share"
+                android:title="分享"
+                android:icon="@drawable/share"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/base_action_collect"
+                android:title="收藏"
+                android:icon="@drawable/collect"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/base_action_setting3"
+                android:title="设置3"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="cn.edu.sjzc.fanyafeng.testlamejni.activity.TestWeChatActivity">
+
+    <TextView
+        android:text="由于微信的背景是黑色的，换上背景以后，除了点击能看到顶部的字体
+        否则看不到，所以换了一种别的颜色，如果想看到也不难，但是需要更改清单文件
+        重新配置theme，博主现在未找到在代码中修改颜色的方法，只能在配置文件中
+        进行修改，以后会加上的"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

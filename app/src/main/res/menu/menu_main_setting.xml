@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="设置"
+        android:showAsAction="ifRoom|withText"
+        android:orderInCategory="50">
+        <menu>
+            <item
+                android:id="@+id/menu_theme"
+                android:showAsAction="always|withText"
+                android:title="更换主题" />
+            <item
+                android:id="@+id/menu_system"
+                android:showAsAction="always|withText"
+                android:title="系统设置" />
+        </menu>
+    </item>
+
+</menu>

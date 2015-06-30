@@ -1,0 +1,104 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/main_action_test"
+        android:title="测试"
+        android:showAsAction="ifRoom|withText"
+        android:orderInCategory="50">
+        <menu>
+            <item
+                android:id="@+id/main_action_test1"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/f"
+                android:title="base测试" />
+            <item
+                android:id="@+id/main_action_test2"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/a"
+                android:title="微信背景测试" />
+            <item
+                android:id="@+id/main_action_test3"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/n"
+                android:title="测试title标题" />
+            <item
+                android:id="@+id/main_action_test4"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/y"
+                android:title="测试隐藏actionbar" />
+            <item
+                android:id="@+id/main_action_test5"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/a"
+                android:title="测试自定义actionbar" />
+            <item
+                android:id="@+id/main_action_test6"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/f"
+                android:title="测试popwindow" />
+            <item
+                android:id="@+id/main_action_test7"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/e"
+                android:title="测试切换背景" />
+            <item
+                android:id="@+id/main_action_test8"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/n"
+                android:title="测试网络视频播放" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:title="设置"
+        android:showAsAction="ifRoom|withText"
+        android:orderInCategory="50">
+        <menu>
+            <item
+                android:id="@+id/second_action_theme"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/y"
+                android:title="更换主题" />
+            <item
+                android:id="@+id/second_action_setting"
+                android:showAsAction="always|withText"
+                android:icon="@drawable/a"
+                android:title="系统设置" />
+        </menu>
+    </item>
+
+    <item
+        android:icon="@drawable/more"
+        android:showAsAction="ifRoom|withText"
+        android:orderInCategory="50">
+        <menu>
+            <item
+                android:id="@+id/action_photo"
+                android:title="拍照"
+                android:icon="@drawable/f"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/action_scan"
+                android:title="扫码"
+                android:icon="@drawable/e"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/action_record"
+                android:title="录音"
+                android:icon="@drawable/n"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+            <item
+                android:id="@+id/action_shoot"
+                android:title="录像"
+                android:icon="@drawable/g"
+                android:orderInCategory="100"
+                android:showAsAction="never" />
+        </menu>
+    </item>
+
+
+</menu>

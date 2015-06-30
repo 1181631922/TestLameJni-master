@@ -1,0 +1,100 @@
+<resources>
+
+    <style name="noTitle" parent="@android:style/Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!--自定义标题-->
+    <!-- 将自定义的style取名为CustomTheme，父类为Theme.Holo.Light，也就是说默认背景是白底黑字（如果是Theme.Holo，则默认是黑底白字） -->
+    <style name="CustomTheme" parent="android:style/Theme.Holo.Light">
+        <!-- 这是item的背景修改，不按时透明，按时显示绿色  -->
+        <item name="android:selectableItemBackground">@drawable/ad_selectable_background</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabTextStyle</item>
+        <item name="android:actionDropDownStyle">@style/MyDropDownNav</item>
+        <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
+    </style>
+
+    <!-- Tab选项标签的样式 -->
+    <style name="MyActionBarTabStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_bg</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingRight">22dp</item>
+    </style>
+
+    <!-- Tab选项标签字体的样式 -->
+    <style name="MyActionBarTabTextStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 下拉导航外部按钮的样式 -->
+    <style name="MyDropDownNav" parent="android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/ad_spinner_background_holo_light</item>
+        <item name="android:popupBackground">@drawable/ad_menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/ad_selectable_background</item>
+    </style>
+
+    <!-- 下拉导航内部按钮的样式 -->
+    <style name="MyDropDownListView" parent="android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/ad_selectable_background</item>
+    </style>
+
+
+    <!--微信theme样式-->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/WeChatActionBar</item>
+        <!--spinner背景颜色-->
+        <item name="android:itemBackground">@color/gray</item>
+        <item name="android:actionBarItemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="android:itemTextAppearance">@style/WeChatActionBarOverflow</item>
+        <item name="android:actionOverflowButtonStyle">@style/WeChatActionButtonOverflow</item>
+        <item name="android:dropDownListViewStyle">@style/MyDropDownListView</item>
+    </style>
+
+    <style name="WeChatActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <!--actionbar背景色，以及actionbar的字体定义-->
+        <item name="android:background">#303537</item>
+        <item name="android:titleTextStyle">@style/WeChatActionBarTitleText</item>
+    </style>
+
+    <style name="WeChatActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <!--actionbar中title的字体颜色和大小-->
+        <item name="android:textColor">#cfcfcf</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="WeChatActionBarOverflow" parent="@android:style/Widget.ActionButton.Overflow">
+        <!--spinner的字体大小-->
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="WeChatActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <!--定义左上角按钮-->
+        <item name="android:src">@drawable/actionbar_more_icon</item>
+    </style>
+    <!--自定义titlebar-->
+    <style name="XTheme" parent="android:Theme.Light">
+        <!-- Window attributes -->
+        <item name="android:windowTitleBackgroundStyle">@style/StatusBarBackground</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">41dp</item>
+        <item name="android:actionModeBackground">@color/white</item>
+        <item name="android:backgroundDimAmount">@color/white</item>
+        <item name="android:backgroundDimEnabled">@color/white</item>
+        <item name="android:backgroundStacked">@color/white</item>
+    </style>
+
+    <style name="StatusBarBackground">
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

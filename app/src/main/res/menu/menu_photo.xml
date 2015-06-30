@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.edu.sjzc.fanyafeng.testlamejni.activity.PhotoActivity">
+    <item
+        android:id="@+id/photo_action_settings"
+        android:title="拍照设置"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/photo_action_photo"
+        android:title="拍照测试"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/photo_action_scan"
+        android:title="试试效果"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
